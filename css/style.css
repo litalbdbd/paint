@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: black 1px solid;
+    margin: 2px;
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+}
+
+li:hover {
+    border: pink 4px solid;
+}
+
+.container {
+    border: black 1px solid;
+    display: flex;
+    height: 600px;
+}
+
+.canvas {
+    border: black 1px double;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 12px;
+}
+
+.menu-color {
+    border: black 1px solid;
+    height: 50px;
+    width: 400px;
+    margin: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.right-side {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-menu {
+    flex: 1;
+}
+
+#pencil {
+    background-image: url("https://img.icons8.com/plasticine/2x/pencil.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#brush {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmryNSQx3MvC2N2Xnv7MhXiIZD6lXwUqipDGk1rXR--58Ci2Y0");
+    background-size: cover;
+    background-position: center;
+}
+
+#eraser {
+    background-image: url("https://cdn.iconscout.com/icon/premium/png-512-thumb/eraser-172-608741.png");
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.colorBtn {
+    border: black 1px solid;
+    border-radius: 12px;
+}
+
+.colorBtn:hover {
+    border: gray 4px solid;
+}
